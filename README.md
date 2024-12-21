@@ -42,9 +42,9 @@ This project follows **MVVM** (Model-View-ViewModel) architecture with:
 
 3. Run the app on an emulator or device.
 
-![Application Screenshot](https://cdn.discordapp.com/attachments/981587143094845490/1320116122317750323/Screenshot_20241221_214623.png?ex=67686d72&is=67671bf2&hm=50dbc801a61ced31e9639d84530033662df167e460cfcdd59bd136e4b8e8c490&)
+<img src="https://cdn.discordapp.com/attachments/981587143094845490/1320116122317750323/Screenshot_20241221_214623.png?ex=67686d72&is=67671bf2&hm=50dbc801a61ced31e9639d84530033662df167e460cfcdd59bd136e4b8e8c490&" alt="Image Description" width="200" height="600" />
 Application Screenshot
-![Demo Video](https://cdn.discordapp.com/attachments/981587143094845490/1320116382041378929/Screen_Recording_20241221_214556_Calculator.mp4?ex=67686db0&is=67671c30&hm=80ff0963fb1d5d3d6988fe4a7a02bfabc7472ed9c22fa17640080551ab19b0c6&)
+![Demo Video](https://drive.google.com/file/d/1jzpObvjBpwCbvswnI4AqT2oEVc5A22aj/view?usp=sharing)
 !Demo Video
 ## License
 
