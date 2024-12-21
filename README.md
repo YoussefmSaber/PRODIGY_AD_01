@@ -42,10 +42,11 @@ This project follows **MVVM** (Model-View-ViewModel) architecture with:
 
 3. Run the app on an emulator or device.
 
-<img src="https://cdn.discordapp.com/attachments/981587143094845490/1320116122317750323/Screenshot_20241221_214623.png?ex=67686d72&is=67671bf2&hm=50dbc801a61ced31e9639d84530033662df167e460cfcdd59bd136e4b8e8c490&" alt="Image Description" width="200" height="600" />
+<img src="https://cdn.discordapp.com/attachments/981587143094845490/1320116122317750323/Screenshot_20241221_214623.png?ex=67686d72&is=67671bf2&hm=50dbc801a61ced31e9639d84530033662df167e460cfcdd59bd136e4b8e8c490&" alt="Application Screenshot" width="200" height="600" />
 Application Screenshot
-![Demo Video](https://drive.google.com/file/d/1jzpObvjBpwCbvswnI4AqT2oEVc5A22aj/view?usp=sharing)
-!Demo Video
+<a href="https://drive.google.com/file/d/1jzpObvjBpwCbvswnI4AqT2oEVc5A22aj/view?usp=sharing">
+   <img src="https://cdn.discordapp.com/attachments/981587143094845490/1320116122317750323/Screenshot_20241221_214623.png?ex=67686d72&is=67671bf2&hm=50dbc801a61ced31e9639d84530033662df167e460cfcdd59bd136e4b8e8c490&" width="200" height="600" alt="Watch Video">
+</a>
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
