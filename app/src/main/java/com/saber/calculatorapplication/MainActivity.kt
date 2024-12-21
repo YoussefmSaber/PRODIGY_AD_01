@@ -51,6 +51,7 @@ private fun CalculatorApp(
     // Safely collect StateFlow values
     val equation by viewModel.equation.collectAsState()
     val result by viewModel.result.collectAsState()
+    val history by viewModel.history.collectAsState()
     Column(
         modifier = Modifier
             .background(BackgroundColor)
@@ -58,11 +59,10 @@ private fun CalculatorApp(
             .padding(vertical = innerPadding.calculateTopPadding(), horizontal = 16.dp)
     ) {
         Spacer(modifier = Modifier.height(32.dp))
-        CalculationCard(equation, result)
-        Spacer(modifier = Modifier.height(32.dp))
+        CalculationCard(equation, result, history)
+        Spacer(modifier = Modifier.height(24.dp))
         CalculatorButtonPad(buttons = usedValues.chunked(4)) {
             viewModel.onButtonClick(it)
-
         }
     }
 }
