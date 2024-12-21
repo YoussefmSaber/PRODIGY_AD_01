@@ -40,7 +40,7 @@ fun CalculatorButton(
             text = label,
             fontSize = 18.sp,
             color = Color.White,
-            modifier = Modifier.padding(vertical = 24.dp),
+            modifier = Modifier.padding(vertical = 18.dp),
         )
     }
 }

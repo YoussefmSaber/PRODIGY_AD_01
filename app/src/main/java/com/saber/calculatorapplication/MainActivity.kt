@@ -24,6 +24,7 @@ import com.saber.calculatorapplication.componants.CalculatorButtonPad
 import com.saber.calculatorapplication.constatns.usedValues
 import com.saber.calculatorapplication.ui.theme.BackgroundColor
 import com.saber.calculatorapplication.ui.theme.CalculatorApplicationTheme
+import com.saber.calculatorapplication.view_model.CalculatorViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -60,11 +61,8 @@ private fun CalculatorApp(
         CalculationCard(equation, result)
         Spacer(modifier = Modifier.height(32.dp))
         CalculatorButtonPad(buttons = usedValues.chunked(4)) {
-            if (it == "C") {
-                viewModel.clearAll()
-            } else {
-                viewModel.onButtonClick(it)
-            }
+            viewModel.onButtonClick(it)
+
         }
     }
 }
